@@ -17,7 +17,7 @@ export class LogoutButtonComponent {
   handleLogout(): void {
     this.auth.logout({
       logoutParams: {
-        returnTo: this.doc.location.origin,
+        returnTo: "https://m3rzh1n.github.io/Angular_Typescript_App4/",
       },
     });
   }
